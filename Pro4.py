@@ -8,7 +8,7 @@ import time
 mysql_conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Anas,.1122",
+    password="root",
     database="anas_db"
 )
 cursor = mysql_conn.cursor()
